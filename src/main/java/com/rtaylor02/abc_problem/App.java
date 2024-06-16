@@ -1,4 +1,4 @@
-package com.rtaylor02;
+package com.rtaylor02.abc_problem;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,10 +6,6 @@ import java.util.List;
 public class App {
     private List<Character> list1 = new ArrayList<>(List.of('B', 'S', 'D', 'C', 'N', 'G', 'R', 'T', 'Q', 'F', 'J', 'H', 'V', 'A', 'O', 'E', 'F', 'L', 'P', 'Z'));
     private List<Character> list2 = new ArrayList<>(List.of('O', 'K', 'Q', 'P', 'A', 'T', 'E', 'G', 'D', 'S', 'W', 'U', 'I', 'N', 'B', 'R', 'S', 'Y', 'C', 'M'));
-
-    public static void main(String[] args) {
-
-    }
 
     public boolean canMakeWord(String word) {
         char[] chars = word.toCharArray();
