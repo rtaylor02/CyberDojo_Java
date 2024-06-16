@@ -7,5 +7,5 @@ This repository contains code solutions for problems posted in [Cyber Dojo](http
 Most problems in Cyber Dojo are taken from [Rosetta Code](https://rosettacode.org/wiki/Rosetta_Code) and therefore I will make my best effort to identify those solutions from different source: different class names, or even different branch. Not decided yet but it will be consistent.
 
 Problems done (my own solution + Rosetta Code solution):
-1. ABC Problem
+1. ![ABC Problem](src/main/java/com/rtaylor02/abc_problem/App.java)
 2. 
