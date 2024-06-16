@@ -1,6 +1,5 @@
-package com.rtaylor02;
+package com.rtaylor02.abc_problem;
 
-import com.rtaylor02.abc_problem.App;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
