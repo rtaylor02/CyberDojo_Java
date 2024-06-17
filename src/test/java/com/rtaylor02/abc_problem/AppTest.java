@@ -103,4 +103,17 @@ public class AppTest {
         // ASSERT
         assertTrue(systemUnderTest.canMakeWord("CONFUSE"));
     }
+
+    // GIVEN an empty String
+    // WHEN it is checked using canMakeWord() method
+    // THEN it should return true
+    @Test
+    void shouldReturnTrue_WhenAnEmptyStringIsPassed() {
+        // ARRANGE
+
+        // ACT
+
+        // ASSERT
+        assertTrue(systemUnderTest.canMakeWord(""));
+    }
 }
