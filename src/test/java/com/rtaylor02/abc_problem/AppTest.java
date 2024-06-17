@@ -3,6 +3,8 @@ package com.rtaylor02.abc_problem;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class AppTest {
@@ -24,6 +26,11 @@ public class AppTest {
 
         // ASSERT
         assertTrue(systemUnderTest.canMakeWord("A"));
+        assertTrue(systemUnderTest.canMakeWord_solution("A", Arrays.asList(
+                "BO", "XK", "DQ", "CP", "NA",
+                "GT", "RE", "TG", "QD", "FS",
+                "JW", "HU", "VI", "AN", "OB",
+                "ER", "FS", "LY", "PC", "ZM")));
     }
 
     // GIVEN a word "BARK"
@@ -37,6 +44,11 @@ public class AppTest {
 
         // ASSERT
         assertTrue(systemUnderTest.canMakeWord("BARK"));
+        assertTrue(systemUnderTest.canMakeWord_solution("BARK", Arrays.asList(
+                "BO", "XK", "DQ", "CP", "NA",
+                "GT", "RE", "TG", "QD", "FS",
+                "JW", "HU", "VI", "AN", "OB",
+                "ER", "FS", "LY", "PC", "ZM")));
     }
 
     // GIVEN a word "BOOK"
@@ -50,6 +62,11 @@ public class AppTest {
 
         // ASSERT
         assertFalse(systemUnderTest.canMakeWord("BOOK"));
+        assertFalse(systemUnderTest.canMakeWord_solution("BOOK", Arrays.asList(
+                "BO", "XK", "DQ", "CP", "NA",
+                "GT", "RE", "TG", "QD", "FS",
+                "JW", "HU", "VI", "AN", "OB",
+                "ER", "FS", "LY", "PC", "ZM")));
     }
 
     // GIVEN a word "TREAT"
@@ -63,6 +80,11 @@ public class AppTest {
 
         // ASSERT
         assertTrue(systemUnderTest.canMakeWord("TREAT"));
+        assertTrue(systemUnderTest.canMakeWord_solution("TREAT", Arrays.asList(
+                "BO", "XK", "DQ", "CP", "NA",
+                "GT", "RE", "TG", "QD", "FS",
+                "JW", "HU", "VI", "AN", "OB",
+                "ER", "FS", "LY", "PC", "ZM")));
     }
 
     // GIVEN a word "COMMON"
@@ -76,6 +98,11 @@ public class AppTest {
 
         // ASSERT
         assertFalse(systemUnderTest.canMakeWord("COMMON"));
+        assertFalse(systemUnderTest.canMakeWord_solution("COMMON", Arrays.asList(
+                "BO", "XK", "DQ", "CP", "NA",
+                "GT", "RE", "TG", "QD", "FS",
+                "JW", "HU", "VI", "AN", "OB",
+                "ER", "FS", "LY", "PC", "ZM")));
     }
 
     // GIVEN a word "SQUAD"
@@ -89,6 +116,11 @@ public class AppTest {
 
         // ASSERT
         assertTrue(systemUnderTest.canMakeWord("SQUAD"));
+        assertTrue(systemUnderTest.canMakeWord_solution("SQUAD", Arrays.asList(
+                "BO", "XK", "DQ", "CP", "NA",
+                "GT", "RE", "TG", "QD", "FS",
+                "JW", "HU", "VI", "AN", "OB",
+                "ER", "FS", "LY", "PC", "ZM")));
     }
 
     // GIVEN a word "CONFUSE"
@@ -102,6 +134,11 @@ public class AppTest {
 
         // ASSERT
         assertTrue(systemUnderTest.canMakeWord("CONFUSE"));
+        assertTrue(systemUnderTest.canMakeWord_solution("CONFUSE", Arrays.asList(
+                "BO", "XK", "DQ", "CP", "NA",
+                "GT", "RE", "TG", "QD", "FS",
+                "JW", "HU", "VI", "AN", "OB",
+                "ER", "FS", "LY", "PC", "ZM")));
     }
 
     // GIVEN an empty String
@@ -115,5 +152,10 @@ public class AppTest {
 
         // ASSERT
         assertTrue(systemUnderTest.canMakeWord(""));
+        assertTrue(systemUnderTest.canMakeWord_solution("", Arrays.asList(
+                "BO", "XK", "DQ", "CP", "NA",
+                "GT", "RE", "TG", "QD", "FS",
+                "JW", "HU", "VI", "AN", "OB",
+                "ER", "FS", "LY", "PC", "ZM")));
     }
 }

@@ -1,11 +1,18 @@
 package com.rtaylor02.abc_problem;
 
+import com.sun.tools.jconsole.JConsoleContext;
+
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class App {
     private List<Character> list1 = new ArrayList<>(List.of('B', 'S', 'D', 'C', 'N', 'G', 'R', 'T', 'Q', 'F', 'J', 'H', 'V', 'A', 'O', 'E', 'F', 'L', 'P', 'Z'));
     private List<Character> list2 = new ArrayList<>(List.of('O', 'K', 'Q', 'P', 'A', 'T', 'E', 'G', 'D', 'S', 'W', 'U', 'I', 'N', 'B', 'R', 'S', 'Y', 'C', 'M'));
+
+    public static void main(String[] args) {
+        new App().canMakeWord_solution(null, null);
+    }
 
     public boolean canMakeWord(String word) {
         char[] chars = word.toCharArray();
@@ -31,5 +38,30 @@ public class App {
         }
 
         return found == chars.length;
+    }
+
+    public boolean canMakeWord_solution(String word, List<String> blocks) {
+        if (word.isEmpty()) {
+            return true;
+        }
+
+        char c = word.charAt(0);
+        for (int i = 0; i < blocks.size(); i++) {
+            String s = blocks.get(i);
+            if (s.charAt(0) != c && s.charAt(1) != c) { // TODO: try if you can change this logic using String's contains()
+                continue;
+            }
+
+            // Only swap when s contains c
+            System.out.println("Top swap");
+            Collections.swap(blocks, 0, i);
+            if (canMakeWord_solution(word.substring(1), blocks.subList(1, blocks.size()))) {
+                return true;
+            }
+            System.out.println("Bottom swap");
+            Collections.swap(blocks, 0, i); // TODO: find out why bottom swap is needed? My first impression is that it's not needed.
+        }
+
+        return false;
     }
 }
