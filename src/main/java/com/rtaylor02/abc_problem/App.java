@@ -1,7 +1,5 @@
 package com.rtaylor02.abc_problem;
 
-import com.sun.tools.jconsole.JConsoleContext;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -48,18 +46,40 @@ public class App {
         char c = word.charAt(0);
         for (int i = 0; i < blocks.size(); i++) {
             String s = blocks.get(i);
-            if (s.charAt(0) != c && s.charAt(1) != c) { // TODO: try if you can change this logic using String's contains()
+            if (s.charAt(0) != c && s.charAt(1) != c) { // TODO: try if you can change this logic using String's contains(). A: use string.indexOf(char) is better.
                 continue;
             }
 
             // Only swap when s contains c
             System.out.println("Top swap");
-            Collections.swap(blocks, 0, i);
+            Collections.swap(blocks, 0, i); // This is a way of getting rid of the block being used
             if (canMakeWord_solution(word.substring(1), blocks.subList(1, blocks.size()))) {
                 return true;
             }
-            System.out.println("Bottom swap");
-            Collections.swap(blocks, 0, i); // TODO: find out why bottom swap is needed? My first impression is that it's not needed.
+            return false;
+            //System.out.println("Bottom swap");
+            //Collections.swap(blocks, 0, i); // TODO: find out why bottom swap is needed? My first impression is that it's not needed. A: correct. It's not needed - put 'return false' instead.
+        }
+
+        return false;
+    }
+
+    public boolean canMakeWord_optimisedSolution(String word, List<String> blocks) {
+        if (word.isEmpty()) {
+            return true;
+        }
+
+        int found = 0;
+        for (int i = 0; i < blocks.size(); i++) {
+            char c = word.charAt(0 + found);
+            String s = blocks.get(i);
+            if (s.indexOf(c) != -1) {
+                found++;
+                blocks.remove(i);
+                i = -1; // Restart searching for next character in the new list
+            }
+
+            if (word.length() == found) return true;
         }
 
         return false;

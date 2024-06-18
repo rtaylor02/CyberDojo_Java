@@ -3,6 +3,7 @@ package com.rtaylor02.abc_problem;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -85,6 +86,11 @@ public class AppTest {
                 "GT", "RE", "TG", "QD", "FS",
                 "JW", "HU", "VI", "AN", "OB",
                 "ER", "FS", "LY", "PC", "ZM")));
+        assertTrue(systemUnderTest.canMakeWord_optimisedSolution("TREAT", new ArrayList(Arrays.asList(
+                "BO", "XK", "DQ", "CP", "NA",
+                "GT", "RE", "TG", "QD", "FS",
+                "JW", "HU", "VI", "AN", "OB",
+                "ER", "FS", "LY", "PC", "ZM"))));
     }
 
     // GIVEN a word "COMMON"
