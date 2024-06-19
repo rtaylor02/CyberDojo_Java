@@ -1,2 +1,5 @@
-package com.rtaylor02.align_columns;public class App {
+package com.rtaylor02.align_columns;
+
+public class App {
+
 }
