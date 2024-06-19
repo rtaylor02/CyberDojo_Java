@@ -32,6 +32,11 @@ public class AppTest {
                 "GT", "RE", "TG", "QD", "FS",
                 "JW", "HU", "VI", "AN", "OB",
                 "ER", "FS", "LY", "PC", "ZM")));
+        assertTrue(systemUnderTest.canMakeWord_optimisedSolution("A", Arrays.asList(
+                "BO", "XK", "DQ", "CP", "NA",
+                "GT", "RE", "TG", "QD", "FS",
+                "JW", "HU", "VI", "AN", "OB",
+                "ER", "FS", "LY", "PC", "ZM")));
     }
 
     // GIVEN a word "BARK"
@@ -46,6 +51,11 @@ public class AppTest {
         // ASSERT
         assertTrue(systemUnderTest.canMakeWord("BARK"));
         assertTrue(systemUnderTest.canMakeWord_solution("BARK", Arrays.asList(
+                "BO", "XK", "DQ", "CP", "NA",
+                "GT", "RE", "TG", "QD", "FS",
+                "JW", "HU", "VI", "AN", "OB",
+                "ER", "FS", "LY", "PC", "ZM")));
+        assertTrue(systemUnderTest.canMakeWord_optimisedSolution("BARK", Arrays.asList(
                 "BO", "XK", "DQ", "CP", "NA",
                 "GT", "RE", "TG", "QD", "FS",
                 "JW", "HU", "VI", "AN", "OB",
@@ -68,6 +78,11 @@ public class AppTest {
                 "GT", "RE", "TG", "QD", "FS",
                 "JW", "HU", "VI", "AN", "OB",
                 "ER", "FS", "LY", "PC", "ZM")));
+        assertFalse(systemUnderTest.canMakeWord_optimisedSolution("BOOK", Arrays.asList(
+                "BO", "XK", "DQ", "CP", "NA",
+                "GT", "RE", "TG", "QD", "FS",
+                "JW", "HU", "VI", "AN", "OB",
+                "ER", "FS", "LY", "PC", "ZM")));
     }
 
     // GIVEN a word "TREAT"
@@ -86,11 +101,11 @@ public class AppTest {
                 "GT", "RE", "TG", "QD", "FS",
                 "JW", "HU", "VI", "AN", "OB",
                 "ER", "FS", "LY", "PC", "ZM")));
-        assertTrue(systemUnderTest.canMakeWord_optimisedSolution("TREAT", new ArrayList(Arrays.asList(
+        assertTrue(systemUnderTest.canMakeWord_optimisedSolution("TREAT", Arrays.asList(
                 "BO", "XK", "DQ", "CP", "NA",
                 "GT", "RE", "TG", "QD", "FS",
                 "JW", "HU", "VI", "AN", "OB",
-                "ER", "FS", "LY", "PC", "ZM"))));
+                "ER", "FS", "LY", "PC", "ZM")));
     }
 
     // GIVEN a word "COMMON"
@@ -105,6 +120,11 @@ public class AppTest {
         // ASSERT
         assertFalse(systemUnderTest.canMakeWord("COMMON"));
         assertFalse(systemUnderTest.canMakeWord_solution("COMMON", Arrays.asList(
+                "BO", "XK", "DQ", "CP", "NA",
+                "GT", "RE", "TG", "QD", "FS",
+                "JW", "HU", "VI", "AN", "OB",
+                "ER", "FS", "LY", "PC", "ZM")));
+        assertFalse(systemUnderTest.canMakeWord_optimisedSolution("COMMON", Arrays.asList(
                 "BO", "XK", "DQ", "CP", "NA",
                 "GT", "RE", "TG", "QD", "FS",
                 "JW", "HU", "VI", "AN", "OB",
@@ -127,6 +147,11 @@ public class AppTest {
                 "GT", "RE", "TG", "QD", "FS",
                 "JW", "HU", "VI", "AN", "OB",
                 "ER", "FS", "LY", "PC", "ZM")));
+        assertTrue(systemUnderTest.canMakeWord_optimisedSolution("SQUAD", Arrays.asList(
+                "BO", "XK", "DQ", "CP", "NA",
+                "GT", "RE", "TG", "QD", "FS",
+                "JW", "HU", "VI", "AN", "OB",
+                "ER", "FS", "LY", "PC", "ZM")));
     }
 
     // GIVEN a word "CONFUSE"
@@ -145,6 +170,11 @@ public class AppTest {
                 "GT", "RE", "TG", "QD", "FS",
                 "JW", "HU", "VI", "AN", "OB",
                 "ER", "FS", "LY", "PC", "ZM")));
+        assertTrue(systemUnderTest.canMakeWord_optimisedSolution("CONFUSE", Arrays.asList(
+                "BO", "XK", "DQ", "CP", "NA",
+                "GT", "RE", "TG", "QD", "FS",
+                "JW", "HU", "VI", "AN", "OB",
+                "ER", "FS", "LY", "PC", "ZM")));
     }
 
     // GIVEN an empty String
@@ -159,6 +189,11 @@ public class AppTest {
         // ASSERT
         assertTrue(systemUnderTest.canMakeWord(""));
         assertTrue(systemUnderTest.canMakeWord_solution("", Arrays.asList(
+                "BO", "XK", "DQ", "CP", "NA",
+                "GT", "RE", "TG", "QD", "FS",
+                "JW", "HU", "VI", "AN", "OB",
+                "ER", "FS", "LY", "PC", "ZM")));
+        assertTrue(systemUnderTest.canMakeWord_optimisedSolution("", Arrays.asList(
                 "BO", "XK", "DQ", "CP", "NA",
                 "GT", "RE", "TG", "QD", "FS",
                 "JW", "HU", "VI", "AN", "OB",

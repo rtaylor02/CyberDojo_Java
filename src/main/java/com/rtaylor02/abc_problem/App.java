@@ -3,6 +3,7 @@ package com.rtaylor02.abc_problem;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Optional;
 
 public class App {
     private List<Character> list1 = new ArrayList<>(List.of('B', 'S', 'D', 'C', 'N', 'G', 'R', 'T', 'Q', 'F', 'J', 'H', 'V', 'A', 'O', 'E', 'F', 'L', 'P', 'Z'));
@@ -70,18 +71,17 @@ public class App {
         }
 
         int found = 0;
-        for (int i = 0; i < blocks.size(); i++) {
-            char c = word.charAt(0 + found);
-            String s = blocks.get(i);
-            if (s.indexOf(c) != -1) {
+        for (int i = 0; i < word.length(); i++) {
+            char c = word.charAt(i);
+            Optional<String> optional = blocks.subList(found, blocks.size()).stream().filter(s -> s.indexOf(c) != -1).findFirst();
+            if (optional.isPresent()) {
+                Collections.swap(blocks, found, blocks.indexOf(optional.get()));
                 found++;
-                blocks.remove(i);
-                i = -1; // Restart searching for next character in the new list
+            } else {
+                return false;
             }
-
-            if (word.length() == found) return true;
         }
 
-        return false;
+        return found == word.length();
     }
 }
