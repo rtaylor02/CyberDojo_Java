@@ -1,0 +1,27 @@
+
+k
+java:S5979"#Initialize mocks before using them.(µŸ¼’üÿÿÿÿ8Õ¨â2J$c49f958a-2bae-4616-92c0-17a7b2f0c771
+“
+java:S3578"RRename this method name to match the regular expression: '^test[A-Z][a-zA-Z0-9]*$'(ş¹¡³ÿÿÿÿÿJ$dabd44a4-108d-4469-a2b2-46f29ef07b85
+n
+java:S3415"2Change this assertion to not compare two literals.(¦ç¶˜J$d09fcb2c-3076-46f8-85e5-96905085eb60
+‡
+java:S5863"KReplace this assertion to not have the same actual and expected expression.(¦ç¶˜J$5bc43129-7a9a-456f-90e5-959ab6d8056b
+\
+java:S2698" Add a message to this assertion.(¦ç¶˜J$ff529808-edcd-4078-8197-4583034bb386
+a
+java:S2698" Add a message to this assertion.(Ì½ì§øÿÿÿÿJ$ae1488d6-d6f3-4c99-b4aa-2226e4c05986
+b
+java:S2701"!Remove or correct this assertion.(Ì½ì§øÿÿÿÿJ$793cb8c9-8f3c-49e9-86c1-a38b5f9471a7
+\
+java:S2698" Add a message to this assertion.(ş»ùâJ$32a6ce5f-66fb-4cf8-9ef2-33635cc92177
+]
+java:S2701"!Remove or correct this assertion.(ş»ùâJ$a80036f1-d52c-4062-ab49-1a5448afbf22
+
+java:S3578$"RRename this method name to match the regular expression: '^test[A-Z][a-zA-Z0-9]*$'(ÛÙ¾ëJ$b212248c-0968-4f9d-9d08-fce06a1fc743
+\
+java:S2698," Add a message to this assertion.(ÌàÜÏJ$3be14130-6c93-4aa5-a69a-f6500c022a6a
+
+java:S35785"RRename this method name to match the regular expression: '^test[A-Z][a-zA-Z0-9]*$'(½ÂùUJ$466b8e3a-3950-4550-93d1-604eda3b69fe
+\
+java:S2698=" Add a message to this assertion.(ÌàÜÏJ$5c3e55eb-74e8-4ad6-a0ab-2d4eb7d37bc0
