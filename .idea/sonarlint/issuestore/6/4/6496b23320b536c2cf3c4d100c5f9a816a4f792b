@@ -1,0 +1,53 @@
+
+f
+java:S5786F"Remove this 'public' modifier.(¼ù‰üÿÿÿÿ8¹ÁïÜ2J$b4bf21da-f8f6-4335-a31d-fde0165896cc
+f
+java:S5786W"Remove this 'public' modifier.(–Öà®ùÿÿÿÿ8ºÁïÜ2J$9b159c5d-e3a4-4e19-96f9-cdbf25fdf746
+a
+java:S5786h"Remove this 'public' modifier.(¨êÄÆ8ÏåúÜ2J$94b5ddc4-3536-4114-ba13-91e459ac9b5f
+f
+java:S5786y"Remove this 'public' modifier.( ±Ùıÿÿÿÿ8³íİ2J$11fef937-75b7-4d63-a11f-4902270abaed
+k
+java:S5979"#Initialize mocks before using them.(µŸ¼’üÿÿÿÿ8ºÁïÜ2J$fbb0a959-b266-47eb-a6a2-33b37648f7ec
+y
+java:S5976$"6Replace these 6 tests with a single Parameterized one.(ÛÙ¾ë8ºÁïÜ2J$0fed284e-4dcc-4755-a3e8-1623e011ac6d
+š
+java:S3578"RRename this method name to match the regular expression: '^test[A-Z][a-zA-Z0-9]*$'(ş¹¡³ÿÿÿÿÿ8ºÁïÜ2J$ecf9b444-45a4-4dd9-b139-e206f215f3eb
+u
+java:S3415"2Change this assertion to not compare two literals.(¦ç¶˜8ºÁïÜ2J$799d4e43-2bfa-4b81-ae45-4391046a3ffc
+
+java:S5863"KReplace this assertion to not have the same actual and expected expression.(¦ç¶˜8ºÁïÜ2J$fcddeeb2-cf59-45a6-a678-1df25cbb4359
+c
+java:S2698" Add a message to this assertion.(¦ç¶˜8ºÁïÜ2J$c2c1df89-6945-45b9-b5f0-cb5b19a33c5d
+h
+java:S2698" Add a message to this assertion.(Ì½ì§øÿÿÿÿ8»ÁïÜ2J$20fb314b-841c-4626-84b7-a58a3e989230
+i
+java:S2701"!Remove or correct this assertion.(Ì½ì§øÿÿÿÿ8»ÁïÜ2J$519ad551-ec2e-4958-84a5-5547dc31a8af
+c
+java:S2698" Add a message to this assertion.(ş»ùâ8»ÁïÜ2J$3b11aeb8-230b-4a25-a4f8-9adc6269483e
+d
+java:S2701"!Remove or correct this assertion.(ş»ùâ8»ÁïÜ2J$a87339a9-aaa0-4715-bf38-993e903c326d
+•
+java:S3578$"RRename this method name to match the regular expression: '^test[A-Z][a-zA-Z0-9]*$'(ÛÙ¾ë8»ÁïÜ2J$d3947738-5aea-43ce-bf34-788a1839ae2b
+c
+java:S2698," Add a message to this assertion.(ÌàÜÏ8»ÁïÜ2J$ac61cd3f-2d55-439c-9078-5a54633d6860
+”
+java:S35785"RRename this method name to match the regular expression: '^test[A-Z][a-zA-Z0-9]*$'(½ÂùU8»ÁïÜ2J$fcaeded7-394e-452e-b817-57bd916354f8
+c
+java:S2698=" Add a message to this assertion.(ÌàÜÏ8»ÁïÜ2J$9d476874-d28f-490c-945f-707406668908
+š
+java:S3578F"RRename this method name to match the regular expression: '^test[A-Z][a-zA-Z0-9]*$'(¼ù‰üÿÿÿÿ8»ÁïÜ2J$f3af2a63-c0eb-473a-80ad-94dfd2e6517a
+c
+java:S2698N" Add a message to this assertion.(ÌàÜÏ8»ÁïÜ2J$f0c2b55b-39ba-4378-8b6f-add18fcc3fdf
+š
+java:S3578W"RRename this method name to match the regular expression: '^test[A-Z][a-zA-Z0-9]*$'(–Öà®ùÿÿÿÿ8»ÁïÜ2J$c37c2cf9-4aa7-458e-8363-302727576a5d
+c
+java:S2698_" Add a message to this assertion.(ÌàÜÏ8»ÁïÜ2J$b555a3fc-8c1c-412d-a0e1-f57406e68ff9
+•
+java:S3578h"RRename this method name to match the regular expression: '^test[A-Z][a-zA-Z0-9]*$'(¨êÄÆ8ĞåúÜ2J$b00cbba0-e48c-40ed-8d4e-aacd0954cd62
+c
+java:S2698p" Add a message to this assertion.(ÌàÜÏ8ĞåúÜ2J$87572c3b-94c7-417e-b25a-83ae3c3b2bc9
+š
+java:S3578y"RRename this method name to match the regular expression: '^test[A-Z][a-zA-Z0-9]*$'( ±Ùıÿÿÿÿ8´íİ2J$d2d21874-f719-49c3-b04a-17ea53860758
+d
+java:S2698" Add a message to this assertion.(ÌàÜÏ8´íİ2J$0d0d14bd-acf2-4477-9744-078b94419d00

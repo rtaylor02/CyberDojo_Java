@@ -1,0 +1,27 @@
+
+™	java:S109"RAssign this magic number 2 to a well-named constant, and use the constant instead.(Ûòò»ıÿÿÿÿ8òøßİ2J$a808816c-863e-4baa-81e3-429fecf23465
+š	java:S109"SAssign this magic number 10 to a well-named constant, and use the constant instead.(í§¦‘ÿÿÿÿÿ8óøßİ2J$328dc535-b69c-49a6-b8e4-9208753c6f3c
+š	java:S109"SAssign this magic number 99 to a well-named constant, and use the constant instead.(¥¯ºŠşÿÿÿÿ8óøßİ2J$65c5f748-097f-4efb-b85e-42697468682f
+›	java:S109"TAssign this magic number 300 to a well-named constant, and use the constant instead.(ÛÏùÿÿÿÿ8óøßİ2J$e633d526-f457-435b-af90-0da3e8293159
+›	java:S109 "TAssign this magic number 310 to a well-named constant, and use the constant instead.(’À¥Òşÿÿÿÿ8óøßİ2J$731d59b2-e5c4-47be-8ab1-1324c425ddd4
+œ	java:S109!"UAssign this magic number 1501 to a well-named constant, and use the constant instead.(…¼çõùÿÿÿÿ8óøßİ2J$77ab0b5b-fe4f-4326-b99c-a1b82c0048c0
+”	java:S1097"RAssign this magic number 3 to a well-named constant, and use the constant instead.(ü¾½¶8óøßİ2J$dad8340b-0787-4530-8729-5439c7e7a1a7
+”	java:S1098"RAssign this magic number 4 to a well-named constant, and use the constant instead.(¦©™ß8óøßİ2J$93dc989e-7733-4c22-b8ae-c0a3deddddc5
+‚
+java:S1854":Remove this useless assignment to local variable "title2".(›ö¦Áøÿÿÿÿ8õøßİ2J$da863486-6b3c-469a-bef0-2b6c0e4a15e8
+‡
+java:S1854"?Remove this useless assignment to local variable "headNumber2".(Ûòò»ıÿÿÿÿ8õøßİ2J$d334ba50-f618-4d99-a8d8-0fd8fb01bbb2
+
+java:S1854"9Remove this useless assignment to local variable "title".(·Ñô²ûÿÿÿÿ8õøßİ2J$956fdc53-a279-405d-b699-1a95b2345ad3
+†
+java:S1854">Remove this useless assignment to local variable "headNumber".(ñù¿íúÿÿÿÿ8õøßİ2J$2105bad5-416e-4675-b645-94be76e70b9e
+w
+java:S6212"/Declare this local variable with "var" instead.(Å±¡•ûÿÿÿÿ8öøßİ2J$42b692e1-cf75-4d9e-b6dc-0044fed0b8f3
+w
+java:S1481"/Remove this unused "headNumber" local variable.(ñù¿íúÿÿÿÿ8÷øßİ2J$2d18428b-4a94-45f4-b586-32a79bd8542a
+r
+java:S1481"*Remove this unused "title" local variable.(·Ñô²ûÿÿÿÿ8øøßİ2J$27e6f775-7635-4a9d-a362-64bbf5e9c69c
+x
+java:S1481"0Remove this unused "headNumber2" local variable.(Ûòò»ıÿÿÿÿ8øøßİ2J$c6a1aafa-1f93-4da0-9db1-4bbd39064628
+s
+java:S1481"+Remove this unused "title2" local variable.(›ö¦Áøÿÿÿÿ8øøßİ2J$04f6919e-c02d-4d1f-a234-6ba796452bd2
