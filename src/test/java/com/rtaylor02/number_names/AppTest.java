@@ -26,6 +26,23 @@ class AppTest {
         assertTrue(true);
         assertFalse(false);
     }
+    
+    /**
+     * GIVEN a number 0 as input
+     * WHEN the giveNumberText() method is run
+     * THEN 'zero' should be output
+     */
+    @Test
+    void shouldOutputZero() {
+        // ARRANGE
+        String expected = "zero";
+        
+        // ACT
+        String actual = systemUnderTest.giveNumberText(0);
+        
+        // ASSERT
+        assertEquals(expected, actual);
+    }
 
     /**
      * GIVEN a number 1 as input
